@@ -6,7 +6,7 @@ public interface data_sharda {
 		
 		String explore_program="//*[@id=\"app\"]/div/div[1]/div[2]/div[2]/div/div[1]/div";
 		//1
-		String International_business="/hhtml/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/div";
+		String International_business="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/div";
 		String International_business_rev="//h1[contains(text(), 'International Business')]";
 		String International_business_Data="International Business";
 		//2
