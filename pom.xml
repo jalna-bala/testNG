@@ -58,6 +58,22 @@
             <artifactId>extentreports</artifactId>
             <version>4.1.4</version>
         </dependency>
+        <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version> <!-- or any latest version -->
+</dependency>
+
+        <dependency>
+        	<groupId>Bala_mavan</groupId>
+        	<artifactId>Testings</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
   
     <build>

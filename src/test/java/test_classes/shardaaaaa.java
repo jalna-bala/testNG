@@ -722,12 +722,12 @@ public class shardaaaaa implements data_sharda {
 	    	 Actions actions = new Actions(driver);
 	    	 
 	    	 WebElement hoverElement =driver.findElement(By.xpath(hoverElement_xpath_2nd));
-	    	 Thread.sleep(2000);
+	    	 Thread.sleep(3000);
 	    	 actions.moveToElement(hoverElement).perform();
 	    	 
-	    	 Thread.sleep(2000);
+	    	 Thread.sleep(3000);
 	    	driver.findElement(By.xpath(hoverElement_xpath_2nd)).click();
-	    	Thread.sleep(2000); 
+	    	Thread.sleep(3000); 
 		    
 		       System.out.println("Clickable");
 		       
@@ -2343,6 +2343,7 @@ public class shardaaaaa implements data_sharda {
 	    public void tearDown() {
 	        // Code to clean up after all test methods are run
 	        System.out.println("Cleanup after all test methods");
+	        System.out.println("All test cases are executed");
 	    }
 	    
 	}
