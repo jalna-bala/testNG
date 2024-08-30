@@ -70,8 +70,8 @@
 </dependency>
 
         <dependency>
-        	<groupId>Bala_mavan</groupId>
-        	<artifactId>Testings</artifactId>
+        	<groupId>New_bala</groupId>
+        	<artifactId>New_bala</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
