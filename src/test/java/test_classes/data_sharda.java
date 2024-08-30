@@ -10,27 +10,27 @@ public interface data_sharda {
 		String International_business_rev="//h1[contains(text(), 'International Business')]";
 		String International_business_Data="International Business";
 		//2
-		String Project_Management="//*[@id=\"app\"]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
+		String Project_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[8]/a/div";
 		String Project_Management_rev="//h1[contains(text(), 'Project Management')]";
 		String Project_Management_Data="Project Management";
 		//3
-		String Marketing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
+		String Marketing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[7]/a/div";
 		String Marketing_rev="//h1[contains(text(), 'Marketing')]";
 		String Marketing_Data="Marketing";
 		//4
-		String Finance="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
+		String Finance="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
 		String Finance_rev="//h1[contains(text(), 'Finance')]";
 		String Finance_Data="Finance";
 		//5
-		String Logistic_and_Supply_Chain_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[6]/a/div";
+		String Logistic_and_Supply_Chain_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
 		String Logistic_and_Supply_Chain_Management_rev="//h1[contains(text(), 'Logistics and Supply Chain Management')]";
 		String Logistic_and_Supply_Chain_Management_Data="Logistics and Supply Chain Management";
 		//6
-		String Operations_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[7]/a/div";
+		String Operations_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
 		String Operations_Management_rev="//h1[contains(text(), 'Operations Management')]";
 		String Operations_Management_Data="Operations Management";
 		//7
-		String Human_Resource_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[8]/a/div";
+		String Human_Resource_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[6]/a/div";
 		String Human_Resource_Management_rev="//h1[contains(text(), 'Human Resource Management')]";
 		String Human_Resource_Management_Data="Human Resource Management";
 		//8
@@ -39,16 +39,16 @@ public interface data_sharda {
 		String Digital_Marketing_and_E_commerce_Data="Digital Marketing and E-commerce";	
 		
 		//9
-		String Data_Science_and_Analytics="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[10]/a/div";
+		String Data_Science_and_Analytics="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[12]/a/div";
 		String Data_Science_and_Analytics_rev="//h1[contains(text(), 'Data Science and Analytics')]";
 		String Data_Science_and_Analytics_Data="Data Science and Analytics";	
 		//10
-		String International_Finance="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[11]/a/div";
+		String International_Finance="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[10]/a/div";
 		String International_Finance_rev="//h1[contains(text(), 'International Finance (Integrated by ACCA, UK)')]";
 		String International_Finance_Data="International Finance (Integrated by ACCA, UK)";	
 			
 			//11
-		String Healthcare_and_Hospital_Administration="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[12]/a/div";
+		String Healthcare_and_Hospital_Administration="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[11]/a/div";
 		String Healthcare_and_Hospital_Administration_rev="//h1[contains(text(), 'Healthcare and Hospital Administration')]";
 		String Healthcare_and_Hospital_Administration_Data="Healthcare and Hospital Administration";	
 		//12	
@@ -61,19 +61,19 @@ public interface data_sharda {
 		String Cyber_Security_rev="//h1[contains(text(), 'Cyber Security')]";
 		String Cyber_Security_Data="Cyber Security";
 		//13
-		String Artificial_Intelligence="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
+		String Artificial_Intelligence="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[6]/a/div";
 		String Artificial_Intelligence_rev="//h1[contains(text(), 'Artificial Intelligence')]";
 		String Artificial_Intelligence_Data="Artificial Intelligence";
 		//14
-		String Cloud_Computing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
+		String Cloud_Computing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
 		String Cloud_Computing_rev="//h1[contains(text(), 'Cloud Computing')]";
 		String Cloud_Computing_Data="Cloud Computing";
 		//15
-		String Computer_Science_and_Information_Technology="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
+		String Computer_Science_and_Information_Technology="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
 		String Computer_Science_and_Information_Technology_rev="//h1[contains(text(), 'Computer Science and Information Technology')]";
 		String Computer_Science_and_Information_Technology_Data="Computer Science and Information Technology";
 		//16
-		String Data_Science="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[6]/a/div";
+		String Data_Science="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
 		String Data_Science_rev="//h1[contains(text(), 'Data Science')]";
 		String Data_Science_Data="Data Science";
 		//17
@@ -121,8 +121,8 @@ public interface data_sharda {
 		String Contact_us_rev="//p[contains(text(), ' +91-6361202000 ')]";
 		String Contact_us_data="+91-6361202000";
 		
-		String searchicon="//*[@id=\"app\"]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div/img";
-		String search_input_xpath="/html/body/div/div/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/input";
+		String searchicon="/html/body/div[1]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div/img";
+		String search_input_xpath="search_box";
 		String searchicon_rev="//*[@id=\"app\"]/div/div[2]/div[2]/div[3]/div/div[1]/a/div/div[2]/div/h2";
 		String searchicon_data="Online MBA in International Business";
 		
@@ -135,8 +135,8 @@ public interface data_sharda {
 		String Apply_now_data="Registration Form";
 		String hoverElement_xpath="//*[@id=\"slick-slide10\"]/div/div/div[1]/a/div";
 		String hoverElement_xpath_2nd="//*[@id=\"slick-slide11\"]/div/div/div[1]/a/div";
-		String  Masters_Degree ="//*[@id=\"app\"]/div/section[1]/div/div[2]/div[1]";
-		String  Bachelors_Degree  ="//*[@id=\"app\"]/div/section[1]/div/div[2]/div[3]";
+		String  Masters_Degree ="/html/body/div[1]/div/section[1]/div/div[2]/div[1]";
+		String  Bachelors_Degree  ="/html/body/div[1]/div/section[1]/div/div[2]/div[3]";
 		
 		String Name_id="name";
 		String Name="abc";
