@@ -56,24 +56,10 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>4.1.4</version>
+            <version>5.0.9</version>
         </dependency>
-        <dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-</dependency>
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version> <!-- or any latest version -->
-</dependency>
 
-        <dependency>
-        	<groupId>New_bala</groupId>
-        	<artifactId>New_bala</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
+       
     </dependencies>
   
     <build>
@@ -92,7 +78,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile> <!-- Reference to the testng.xml at the root directory -->
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver.exe</webdriver.chrome.driver>
