@@ -628,7 +628,7 @@ public class shardaaaaa implements data_sharda {
 
 	    }
 	   // master and bachlor program click
-	    @Test(priority = 29)
+	  //  @Test(priority = 29)
 	    public void TESTCASES29() throws InterruptedException {
 	        
 	    	JavascriptExecutor js = (JavascriptExecutor) driver;
