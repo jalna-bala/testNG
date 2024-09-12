@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="tests" thread-count="5">
   <test name="Test" parallel="classes">
     <classes>
-      <class name=""/>
+      <class name="test_classes.shardaaaaa"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
