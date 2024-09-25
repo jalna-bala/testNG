@@ -3,89 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_classes.shardaaa2">
+      <class name="test_classes.Vo_referral">
         <methods>
-          <include name="TESTCASES42"/>
-          <include name="TESTCASES41"/>
-          <include name="TESTCASES40"/>
-          <include name="TESTCASES80"/>
-          <include name="TESTCASES18"/>
-          <include name="TESTCASES43"/>
-          <include name="TESTCASES49"/>
-          <include name="TESTCASES48"/>
-          <include name="TESTCASES47"/>
-          <include name="TESTCASES46"/>
-          <include name="TESTCASES45"/>
-          <include name="TESTCASES44"/>
-          <include name="TESTCASES31"/>
-          <include name="TESTCASES75"/>
-          <include name="TESTCASES30"/>
-          <include name="TESTCASES74"/>
-          <include name="TESTCASES73"/>
-          <include name="TESTCASES72"/>
-          <include name="TESTCASES71"/>
-          <include name="TESTCASES70"/>
-          <include name="TESTCASES32"/>
-          <include name="TESTCASES76"/>
-          <include name="TESTCASES39"/>
-          <include name="TESTCASES38"/>
-          <include name="TESTCASES37"/>
-          <include name="TESTCASES36"/>
-          <include name="TESTCASES35"/>
-          <include name="TESTCASES79"/>
-          <include name="TESTCASES34"/>
-          <include name="TESTCASES78"/>
-          <include name="TESTCASES33"/>
-          <include name="TESTCASES77"/>
-          <include name="TESTCASES20"/>
-          <include name="TESTCASES64"/>
-          <include name="TESTCASES63"/>
-          <include name="TESTCASES62"/>
-          <include name="TESTCASES61"/>
-          <include name="TESTCASES60"/>
           <include name="setUp"/>
-          <include name="TESTCASES21"/>
-          <include name="TESTCASES65"/>
-          <include name="TESTCASES28"/>
-          <include name="TESTCASES27"/>
-          <include name="TESTCASES25"/>
-          <include name="TESTCASES69"/>
-          <include name="TESTCASES24"/>
-          <include name="TESTCASES68"/>
-          <include name="TESTCASES23"/>
-          <include name="TESTCASES67"/>
-          <include name="TESTCASES22"/>
-          <include name="TESTCASES66"/>
-          <include name="TESTCASES53"/>
-          <include name="tearDown"/>
-          <include name="TESTCASES52"/>
-          <include name="TESTCASES51"/>
-          <include name="TESTCASES50"/>
-          <include name="TESTCASES8"/>
-          <include name="TESTCASES7"/>
-          <include name="TESTCASES6"/>
-          <include name="TESTCASES5"/>
-          <include name="TESTCASES4"/>
-          <include name="TESTCASES3"/>
-          <include name="TESTCASES2"/>
-          <include name="TESTCASES10"/>
-          <include name="TESTCASES54"/>
-          <include name="TESTCASES19"/>
-          <include name="TESTCASES9"/>
-          <include name="TESTCASES17"/>
-          <include name="TESTCASES16"/>
-          <include name="TESTCASES15"/>
-          <include name="TESTCASES59"/>
-          <include name="TESTCASES14"/>
-          <include name="TESTCASES58"/>
-          <include name="TESTCASES13"/>
-          <include name="TESTCASES57"/>
-          <include name="TESTCASES12"/>
-          <include name="TESTCASES56"/>
           <include name="TESTCASES11"/>
-          <include name="TESTCASES55"/>
         </methods>
-      </class> <!-- test_classes.shardaaa2 -->
+      </class> <!-- test_classes.Vo_referral -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
