@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_classes.Vo_referral">
+      <class name="test_classes.shardaaaaa">
         <methods>
           <include name="setUp"/>
-          <include name="TESTCASES11"/>
+          <include name="tearDown"/>
+          <include name="TESTCASES34"/>
+          <include name="TESTCASES33"/>
         </methods>
-      </class> <!-- test_classes.Vo_referral -->
+      </class> <!-- test_classes.shardaaaaa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

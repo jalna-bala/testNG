@@ -43,11 +43,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(International_business_Data, IB);
 	       Assert.assertEquals(IB, International_business_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 	       
@@ -65,11 +65,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Project_Management_Data, IB);
 	       Assert.assertEquals(IB, Project_Management_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -86,11 +86,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      // Assert.assertEquals(Marketing_Data, IB);
 	       Assert.assertEquals(IB, Marketing_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -107,11 +107,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      // Assert.assertEquals(Finance_Data, IB);
 	       Assert.assertEquals(IB, Finance_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -128,11 +128,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Logistic_and_Supply_Chain_Management_Data, IB);
 	       Assert.assertEquals(IB, Logistic_and_Supply_Chain_Management_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -149,11 +149,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Operations_Management_Data, IB);
 	        Assert.assertEquals(IB, Operations_Management_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -170,11 +170,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      // Assert.assertEquals(Human_Resource_Management_Data, IB);
 	        Assert.assertEquals(IB, Human_Resource_Management_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -191,11 +191,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      // Assert.assertEquals(Digital_Marketing_and_E_commerce_Data, IB);
 		    Assert.assertEquals(IB, Digital_Marketing_and_E_commerce_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -212,11 +212,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	     //  Assert.assertEquals(Data_Science_and_Analytics_Data, IB);
 	        Assert.assertEquals(IB, Data_Science_and_Analytics_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -233,11 +233,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(International_Finance_Data, IB);
 	        Assert.assertEquals(IB, International_Finance_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -254,11 +254,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Healthcare_and_Hospital_Administration_Data, IB);
 	       Assert.assertEquals(IB, Healthcare_and_Hospital_Administration_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -278,11 +278,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      
 	       Assert.assertEquals(IB, Cyber_Security_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -301,11 +301,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	      
 	       Assert.assertEquals(IB, Artificial_Intelligence_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -324,11 +324,11 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	     
 	       Assert.assertEquals(IB, Cloud_Computing_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -347,10 +347,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, Computer_Science_and_Information_Technology_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -370,10 +370,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, Data_Science_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -393,10 +393,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, Accounting_and_Finance_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -415,10 +415,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, International_Finance_in_mcom_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -437,10 +437,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, BBA_program_in_BBA_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -459,10 +459,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, International_Finance_in_BBA_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -481,10 +481,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, BCA_program_in_BCA_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -505,10 +505,10 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       Assert.assertEquals(IB, BA_Political_Science_program_Data);
-	       System.out.println("ELECTIVE IS FOUND");
+	       System.out.println(IB + " ELECTIVE IS FOUND");
 	       
 	       driver.close();
 
@@ -523,7 +523,7 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Healthcare_and_Hospital_Administration_Data, IB);
 	       Assert.assertEquals(IB, about_us_data);
@@ -541,7 +541,7 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Healthcare_and_Hospital_Administration_Data, IB);
 	       Assert.assertEquals(IB, Blogs_data);
@@ -559,7 +559,7 @@ public class shardaaaaa implements data_sharda {
 	       
 	        String IB = text.getText();
 	       
-	        System.out.println(IB);
+	      //   System.out.println(IB);
   
 	       //Assert.assertEquals(Healthcare_and_Hospital_Administration_Data, IB);
 	       Assert.assertEquals(IB, Contact_us_data);
@@ -584,7 +584,7 @@ public class shardaaaaa implements data_sharda {
 	        String IB = text.getText();
 	       	     
 	       Assert.assertEquals(IB, searchicon_data);
-	       System.out.println(IB);
+	     //   System.out.println(IB);
 	      	       
 	       driver.close();
 
@@ -602,7 +602,7 @@ public class shardaaaaa implements data_sharda {
 		           
 		       Assert.assertEquals(IB, Enquire_now_data);
 		       
-		       System.out.println(IB);
+		     //   System.out.println(IB);
 		       
 		       driver.close();
 
@@ -735,7 +735,7 @@ public class shardaaaaa implements data_sharda {
 	    }
 	    
 	  //  master program
-	    @Test(priority = 33)
+	  //  @Test(priority = 33)
 	    public void TESTCASES33() throws InterruptedException {
 	     
 	    	JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -752,7 +752,7 @@ public class shardaaaaa implements data_sharda {
 
 	    }
 	    //bachalor program
-	    @Test(priority = 34)
+	  //  @Test(priority = 34)
 	    public void TESTCASES34() throws InterruptedException {
 	     
 	    	
