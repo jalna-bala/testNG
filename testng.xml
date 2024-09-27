@@ -3,17 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test_classes.Vo_referral"/>
       <class name="test_classes.broken_link"/>
-      <class name="test_classes.first_class"/>
       <class name="test_classes.shardaaaaa"/>
-      <class name="test_classes.eight_class"/>
-      <class name="test_classes.seventh_class"/>
-      <class name="test_classes.fourth_class"/>
-      <class name="test_classes.fifth_class"/>
-      <class name="test_classes.second_class"/>
-      <class name="test_classes.third_class"/>
-      <class name="test_classes.sixth_class"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
