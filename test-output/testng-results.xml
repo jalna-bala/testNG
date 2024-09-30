@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T12:29:21 IST" name="Default suite" finished-at="2024-09-27T12:29:40 IST" duration-ms="19295">
+  <suite started-at="2024-09-30T11:00:10 IST" name="Default suite" finished-at="2024-09-30T11:00:30 IST" duration-ms="19754">
     <groups>
     </groups>
-    <test started-at="2024-09-27T12:29:21 IST" name="Default test" finished-at="2024-09-27T12:29:40 IST" duration-ms="19295">
+    <test started-at="2024-09-30T11:00:10 IST" name="Default test" finished-at="2024-09-30T11:00:30 IST" duration-ms="19754">
       <class name="test_classes.broken_link">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-27T12:29:21 IST" name="setUp" finished-at="2024-09-27T12:29:24 IST" duration-ms="3512" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-30T11:00:10 IST" name="setUp" finished-at="2024-09-30T11:00:14 IST" duration-ms="3938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkBrokenLinks()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-27T12:29:24 IST" name="checkBrokenLinks" finished-at="2024-09-27T12:29:40 IST" duration-ms="15447" status="PASS">
+        <test-method signature="checkBrokenLinks()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-30T11:00:14 IST" name="checkBrokenLinks" finished-at="2024-09-30T11:00:29 IST" duration-ms="14569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBrokenLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-27T12:29:40 IST" name="tearDown" finished-at="2024-09-27T12:29:40 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_classes.broken_link@729d991e]" started-at="2024-09-30T11:00:29 IST" name="tearDown" finished-at="2024-09-30T11:00:30 IST" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
