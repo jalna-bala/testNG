@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test_classes.broken_link"/>
-     
+      <class name="test_classes.shardaaaaa"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
