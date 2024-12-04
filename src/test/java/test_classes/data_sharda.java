@@ -14,13 +14,13 @@ public interface data_sharda {
 		String Project_Management_rev="//h1[contains(text(), 'Project Management')]";
 		String Project_Management_Data="Project Management";
 		//3
-		String Marketing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[7]/a/div";
+		String Marketing="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
 		String Marketing_rev="//h1[contains(text(), 'Marketing')]";
-		String Marketing_Data="Marketing";
+		String Marketing_Data="Online MBA in Marketing";
 		//4
 		String Finance="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
 		String Finance_rev="//h1[contains(text(), 'Finance')]";
-		String Finance_Data="Finance";
+		String Finance_Data="Online MBA in Finance";
 		//5
 		String Logistic_and_Supply_Chain_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
 		String Logistic_and_Supply_Chain_Management_rev="//h1[contains(text(), 'Logistics and Supply Chain Management')]";
@@ -30,9 +30,9 @@ public interface data_sharda {
 		String Operations_Management_rev="//h1[contains(text(), 'Operations Management')]";
 		String Operations_Management_Data="Operations Management";
 		//7
-		String Human_Resource_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[6]/a/div";
+		String Human_Resource_Management="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
 		String Human_Resource_Management_rev="//h1[contains(text(), 'Human Resource Management')]";
-		String Human_Resource_Management_Data="Human Resource Management";
+		String Human_Resource_Management_Data="Online MBA in Human Resource Management";
 		//8
 		String Digital_Marketing_and_E_commerce="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[9]/a/div";
 		String Digital_Marketing_and_E_commerce_rev="//h1[contains(text(), 'Digital Marketing and E-commerce')]";
@@ -48,9 +48,9 @@ public interface data_sharda {
 		String International_Finance_Data="International Finance (Integrated by ACCA, UK)";	
 			
 			//11
-		String Healthcare_and_Hospital_Administration="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[11]/a/div";
+		String Healthcare_and_Hospital_Administration="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/div";
 		String Healthcare_and_Hospital_Administration_rev="//h1[contains(text(), 'Healthcare and Hospital Administration')]";
-		String Healthcare_and_Hospital_Administration_Data="Healthcare and Hospital Administration";	
+		String Healthcare_and_Hospital_Administration_Data="Online MBA in Healthcare and Hospital Administration";	
 		//12	
 		
 		//mca program
@@ -69,13 +69,13 @@ public interface data_sharda {
 		String Cloud_Computing_rev="//h1[contains(text(), 'Cloud Computing')]";
 		String Cloud_Computing_Data="Cloud Computing";
 		//15
-		String Computer_Science_and_Information_Technology="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[4]/a/div";
+		String Computer_Science_and_Information_Technology="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/div";
 		String Computer_Science_and_Information_Technology_rev="//h1[contains(text(), 'Computer Science and Information Technology')]";
 		String Computer_Science_and_Information_Technology_Data="Computer Science and Information Technology";
 		//16
-		String Data_Science="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[5]/a/div";
+		String Data_Science="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[3]/a/div";
 		String Data_Science_rev="//h1[contains(text(), 'Data Science')]";
-		String Data_Science_Data="Data Science";
+		String Data_Science_Data="Online MCA in Data Science";
 		//17
 		String Mcom_program="/html/body/div[1]/div/div[1]/div[3]/div/div[1]/div[1]/div[4]/div/div[2]";
 		
@@ -104,10 +104,10 @@ public interface data_sharda {
 		String BCA_program_in_BCA_rev="//h1[contains(text(), 'BCA Program')]";
 		String BCA_program_in_BCA_Data="Online BCA Program";
 		
-		String BA_program="/html/body/div[1]/div/div[1]/div[3]/div/div[1]/div[2]/div[7]/div/div[2]";
+		String BA_program="/html/body/div[1]/div/div[1]/div[3]/div/div[1]/div[2]/div[4]/div/div[2]";
 		String BA_Political_Science_program="/html/body/div[1]/div/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/div";
 		String BA_Political_Science_program_rev="//h1[contains(text(), 'Political Science')]";
-		String BA_Political_Science_program_Data="Political Science";
+		String BA_Political_Science_program_Data="Online BA (Hons.) in Political Science";
 		
 		
 		String about_us="//div[contains(text(), 'About Us')]";
@@ -130,10 +130,10 @@ public interface data_sharda {
 		String Enquire_now_rev="//*[@id=\"app\"]/div/div[1]/div[4]/div/div/div/h2";
 		String Enquire_now_data="Enquire Now";
 		
-		String Apply_now="//*[@id=\"slick-slide10\"]/div/div/div[1]/a/div";
+		String Apply_now="/html/body/div[1]/div/div[2]/div/div/div/div[1]/div[4]/a[1]";
 		String Apply_now_rev="//input[@id=\"9a36a632-f28e-4475-be4d-235262dd2748__tab1__section1__FirstName__Lead__0\"]";
 		String Apply_now_data="Registration Form";
-		String hoverElement_xpath="//*[@id=\"slick-slide10\"]/div/div/div[1]/a/div";
+		String hoverElement_xpath="/html/body/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div/div/div/div[1]/a/div";
 		String hoverElement_xpath_2nd="//*[@id=\"slick-slide11\"]/div/div/div[1]/a/div";
 		String  Masters_Degree ="/html/body/div[1]/div/section[1]/div/div[2]/div[1]";
 		String  Bachelors_Degree  ="/html/body/div[1]/div/section[1]/div/div[2]/div[3]";
@@ -181,22 +181,22 @@ public interface data_sharda {
 		 //mba
 		 String Expected_URL_of_International_business_Brochure ="https://api.shardaonline.online/media/elective/brochures/MBA_-International_Business_Elective.pdf";
 			String Expected_URL_of_Project_Management_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-Project_Management_Elective_No_Contact.pdf";
-			 String Expected_URL_of_Marketing_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-_Marketing_Elective.pdf";
-			 String Expected_URL_of_Finance_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_Finance_brochure.pdf";
+			 String Expected_URL_of_Marketing_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA-MarketingElectiveNew_CQ3wOzu.pdf";
+			 String Expected_URL_of_Finance_Brochure="https://api.shardaonline.online/media/elective/brochures/MBAFinancebrochureNEW_8GqzFQC.pdf";
 			 String Expected_URL_of_Logistics_and_Supply_Chain_Management_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-Logistics_and_Supply_Chain_Management_Elective.pdf";
 			 String Expected_URL_of_Operations_Management_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-_Operations_Management_Elective.pdf";
-			 String Expected_URL_of_Human_Resource_Management_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-_HRM_Elective.pdf";
+			 String Expected_URL_of_Human_Resource_Management_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA-HRMElectiveNew_6JrvyNG.pdf";
 			 String Expected_URL_of_Digital_Marketing_and_E_commerce_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-Digital_Marketing_and_E-commerce_Elective.pdf";
 			 String Expected_URL_of_Data_Science_and_Analytics_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-_MBA_Data_Science_and_Analytics_Elective_No_Contact.pdf";
 			 String Expected_URL_of_International_Finance_Integrated_by_ACCA_UK_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-_International_Finance_Integrated_with_ACCA_UK.pdf";
-			 String Expected_URL_of_Healthcare_and_Hospital_Administration_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA_-Healthcare_and_Hospital_Administration_Elective_No_Contact.pdf";
+			 String Expected_URL_of_Healthcare_and_Hospital_Administration_Brochure="https://api.shardaonline.online/media/elective/brochures/MBA-HealthcareandHospitalAdministrationElectiveNew.pdf.pdf";
 			 		
 		 //mca
 			 String Expected_URL_of_Cyber_Security_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA-Cyber_Security.pdf";
 			 String Expected_URL_of_Artificial_Intelligence_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA_-Artificial_Intellengence.pdf";
 			 String Expected_URL_of_Cloud_Computing_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA_-Cloud_Computing.pdf";
-			 String Expected_URL_of_Computer_Science_and_Information_Technology_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA-Computer_Science_and_Information_Technology.pdf";
-			 String Expected_URL_of_Data_Science_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA-Data_Science.pdf";
+			 String Expected_URL_of_Computer_Science_and_Information_Technology_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA-ComputerScienceandInformationTechnologyNew_wTJ6yaO.pdf";
+			 String Expected_URL_of_Data_Science_Brochure="https://api.shardaonline.online/media/elective/brochures/MCA-DataScienceNew_i4W7D6T.pdf";
 	 
 			 //m.com
 			 		String Expected_URL_of_Accounting_and_Finance_Brochure_in_mcom="https://api.shardaonline.online/media/elective/brochures/M.Com-Accounting_and_Finance.pdf";
@@ -206,7 +206,7 @@ public interface data_sharda {
 					 String Expected_URL_of_International_Finance_in_bba="https://api.shardaonline.online/media/elective/brochures/BBA__in_International_Finance_Integrated_with_ACCA_UK.pdf";
 					 
 					 //bca
-					 String Expected_URL_of_Online_BCA_Program_Brochure ="https://api.shardaonline.online/media/elective/brochures/BCA_Elective_brochure.pdf";
+					// String Expected_URL_of_Online_BCA_Program_Brochure ="https://api.shardaonline.online/media/elective/brochures/BCA_Elective_brochure.pdf";
 					//ba
 					 String Expected_URL_of_Political_Science_Brochure ="https://api.shardaonline.online/media/elective/brochures/BAHons_Political_Science_brochure.pdf";
 			 
