@@ -3,27 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_classes.shardaaaaa">
+      <class name="test_classes.LearningBrokenLink">
         <methods>
           <include name="tearDown"/>
-          <include name="TESTCASES74"/>
-          <include name="TESTCASES62"/>
-          <include name="TESTCASES73"/>
-          <include name="TESTCASES61"/>
-          <include name="TESTCASES80"/>
-          <include name="TESTCASES7"/>
-          <include name="TESTCASES4"/>
-          <include name="TESTCASES3"/>
-          <include name="TESTCASES65"/>
+          <include name="checkBrokenLinks"/>
           <include name="setUp"/>
-          <include name="TESTCASES16"/>
-          <include name="TESTCASES36"/>
-          <include name="TESTCASES58"/>
-          <include name="TESTCASES69"/>
-          <include name="TESTCASES35"/>
-          <include name="TESTCASES22"/>
         </methods>
-      </class> <!-- test_classes.shardaaaaa -->
+      </class> <!-- test_classes.LearningBrokenLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
