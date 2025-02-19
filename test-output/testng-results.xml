@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-18T21:18:26 IST" name="Default suite" finished-at="2025-02-18T21:18:40 IST" duration-ms="14335">
+  <suite started-at="2025-02-19T10:27:02 IST" name="Default suite" finished-at="2025-02-19T10:27:07 IST" duration-ms="5577">
     <groups>
     </groups>
-    <test started-at="2025-02-18T21:18:26 IST" name="Default test" finished-at="2025-02-18T21:18:40 IST" duration-ms="14335">
-      <class name="test_classes.shardaaaaa">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test_classes.shardaaaaa@1aafa419]" started-at="2025-02-18T21:18:26 IST" name="setUp" finished-at="2025-02-18T21:18:36 IST" duration-ms="10488" status="PASS">
+    <test started-at="2025-02-19T10:27:02 IST" name="Default test" finished-at="2025-02-19T10:27:07 IST" duration-ms="5577">
+      <class name="test_classes.testing_one">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_classes.testing_one@7b2bbc3]" started-at="2025-02-19T10:27:02 IST" name="setUp" finished-at="2025-02-19T10:27:06 IST" duration-ms="4459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TESTCASES11()[pri:11, instance:test_classes.shardaaaaa@1aafa419]" started-at="2025-02-18T21:18:36 IST" name="TESTCASES11" finished-at="2025-02-18T21:18:40 IST" duration-ms="3796" status="PASS">
+        <test-method signature="TESTCASES11()[pri:1, instance:test_classes.testing_one@7b2bbc3]" started-at="2025-02-19T10:27:06 IST" name="TESTCASES11" finished-at="2025-02-19T10:27:07 IST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TESTCASES11 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_classes.shardaaaaa@1aafa419]" started-at="2025-02-18T21:18:40 IST" name="tearDown" finished-at="2025-02-18T21:18:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test_classes.shardaaaaa -->
+      </class> <!-- test_classes.testing_one -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
