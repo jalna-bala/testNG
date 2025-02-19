@@ -4,13 +4,10 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -23,41 +20,30 @@ public class LearningBrokenLink {
     int forbiddenLinksCount = 0;
     int skippingNonHttpCount = 0;
     int blockedByAutomationCount = 0;
+    int emptyHrefCount = 0; // ✅ Counter for empty or missing href
 
     @BeforeMethod
     public void setUp() {
-        // Using WebDriverManager to set up ChromeDriver automatically
-    	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver-win64\\Chromedriver.exe");
-	       
-
-        // Initialize the WebDriver (Chrome)
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver-win64\\Chromedriver.exe");
         driver = new ChromeDriver();
-
-        // Maximize the browser window
         driver.manage().window().maximize();
-
-        // Navigate to the webpage
         driver.get("https://shardaonline.ac.in");
     }
 
     @Test
     public void checkBrokenLinks() {
-        // Get all the anchor tags (links) on the page
         List<WebElement> links = driver.findElements(By.tagName("a"));
-
-        // Print total number of links
         System.out.println("Total links found: " + links.size());
 
-        // Check each link's status
         for (WebElement link : links) {
             String url = link.getAttribute("href");
 
             if (url == null || url.isEmpty()) {
-                System.out.println("Skipping empty or missing href.");
+                System.out.println("Skipping empty or missing href: " + link.getText());
+                emptyHrefCount++; // ✅ Increment counter
                 continue;
             }
 
-            // Check if the URL starts with "http" or "https"
             if (!url.startsWith("http")) {
                 System.out.println("Skipping non-HTTP URL: " + url);
                 skippingNonHttpCount++;
@@ -67,7 +53,7 @@ public class LearningBrokenLink {
             checkLinkStatus(url);
         }
 
-        // Print summary of links
+        // ✅ Updated Summary with empty/missing href count
         System.out.println("========= Summary =========");
         System.out.println("Total links checked: " + links.size());
         System.out.println("Working links: " + workingLinksCount);
@@ -75,6 +61,7 @@ public class LearningBrokenLink {
         System.out.println("Forbidden links (403): " + forbiddenLinksCount);
         System.out.println("Blocked links (999): " + blockedByAutomationCount);
         System.out.println("Skipped non-HTTP links: " + skippingNonHttpCount);
+        System.out.println("Skipped empty/missing href: " + emptyHrefCount); // ✅ Added this
     }
 
     private void checkLinkStatus(String url) {
@@ -101,8 +88,7 @@ public class LearningBrokenLink {
                 workingLinksCount++;
             }
 
-            connection.disconnect();  // Closing connection
-
+            connection.disconnect();
         } catch (IOException e) {
             System.out.println("Error checking URL: " + url + " - " + e.getMessage());
             brokenLinksCount++;
