@@ -62,6 +62,7 @@ public class LearningBrokenLink {
         System.out.println("Blocked links (999): " + blockedByAutomationCount);
         System.out.println("Skipped non-HTTP links: " + skippingNonHttpCount);
         System.out.println("Skipped empty/missing href: " + emptyHrefCount); // ✅ Added this
+        System.out.println("everything is ok");
     }
 
     private void checkLinkStatus(String url) {
@@ -98,7 +99,7 @@ public class LearningBrokenLink {
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
-            driver.quit();
+            driver.quit();3
         }
     }
 }
